@@ -3,7 +3,8 @@ import "./pagebox.css"
 import { Link } from 'react-router-dom'
 import logo from "../../assets/gym-logo.jpg"
 
-export const PageBox = ({ tit, subTit, inp_box1, inp_box2, ancorr, btnn }) => {
+export const PageBox = ({ tit, subTit, inp_box1, inp_box2, ancorr, btnn, setPageChange }) => {
+
     return (
         <>
             <div className="pagebox_con">
@@ -24,9 +25,9 @@ export const PageBox = ({ tit, subTit, inp_box1, inp_box2, ancorr, btnn }) => {
                         {inp_box1}
                         {inp_box2}
                     </div>
-                    <Link>
+                    <div onClick={() =>setPageChange("forgetPage")}>
                         {ancorr}
-                    </Link>
+                    </div>
                     <div className="pagebox_btn">
                         <button>{btnn}</button>
                     </div>
