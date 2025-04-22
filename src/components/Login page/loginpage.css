@@ -1,0 +1,8 @@
+.loginpage_con {
+    border: 2px solid black;
+    height: 100vh;
+    background-image: url("../../assets/gym-first-page.webp");
+}
+.loginpage_1{
+    margin: 50px 0px 0px 30px ;
+}

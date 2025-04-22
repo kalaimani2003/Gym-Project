@@ -1,0 +1,20 @@
+.log_name_con{
+    /* border: 1px solid black; */
+    display: flex;
+    width: 180px;
+    justify-content: space-evenly;
+}
+.Gymlogo_img{
+    /* border: 1px solid black; */
+    height: 41px;
+    width: 41px;
+    border-radius: 50%;
+
+}
+.log_name_txt{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    font-family:Inter,sans-serif;
+
+}
