@@ -4,7 +4,6 @@ import { LoginPage } from './components/Login page/LoginPage'
 import { RouterCom } from './components/Router/RouterCom'
 import { LoginFirstpage } from './screens/loginpage/loginFirstpage'
 import { BrowserRouter } from 'react-router-dom'
-import EmailIcon from '@mui/icons-material/Email';
 
 
 function App() {

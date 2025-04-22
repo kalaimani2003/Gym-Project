@@ -1,0 +1,25 @@
+.pagebox_con{
+    /* height:400px; */
+    padding: 30px 10px;
+    width: 400px;
+    background-color: white;
+    border: 2px solid black;
+    font-family: var(--primaryFont);
+
+}
+.pagebox_logo{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: 2px solid black;
+}
+.pagebox_log_txt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pagebox_txt{
+    border-left: 2px solid gray;
+    padding: 0px 20px;
+}

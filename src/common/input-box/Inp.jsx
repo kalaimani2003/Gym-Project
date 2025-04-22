@@ -6,7 +6,6 @@ export const Inp = ({inp_icon,inp_type,inp_plac}) => {
         <>
             <div className="inp_con_out">
                 <div className="inp_logo">
-                    {/* <EmailIcon /> */}
                     {inp_icon}
                 </div>
                 <input className='inp_input' type={inp_type} placeholder={inp_plac} />
