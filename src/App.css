@@ -2,3 +2,9 @@
   margin: 0px;
   padding: 0px;
 }
+
+:root{
+  --primary:#5678;
+  --secondary:#5678;
+  --primaryFont:Inter,sans-serif;
+}

@@ -2,7 +2,25 @@
     border: 2px solid black;
     height: 100vh;
     background-image: url("../../assets/gym-first-page.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
 }
-.loginpage_1{
-    margin: 50px 0px 0px 30px ;
+
+.loginpage_logo {
+    margin: 50px 0px 0px 30px;
+}
+
+.loginpage_h1 {
+    font-family: var(--primaryFont);
+    margin: 200px 0px 0px 40px;
+}
+
+.loginpage_p1 {
+    font-family: var(--primaryFont);
+    margin: 5px 0px 0px 40px;
+
+}
+.loginpage_medias{
+    display: flex;
 }
