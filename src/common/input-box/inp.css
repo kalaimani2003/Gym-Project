@@ -1,0 +1,24 @@
+.inp_con_out {
+    border: 2px solid black;
+    height: 40px;
+    width: 310px;
+    display: flex;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.inp_logo {
+    /* border: 1px solid rgb(255, 0, 0); */
+    height: 100%;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inp_input{
+    height: 100%;
+    width: 85%;
+    outline: none;
+    border: none;
+    font-size: large;
+}
