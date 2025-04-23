@@ -1,0 +1,50 @@
+.Dashboard_head{
+    border: 2px solid black;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.Dashboard_navbar{
+    /* border: 2px solid black; */
+    height: 90vh;
+    width: 15%;
+    display: inline-block;
+    background-color: #E01936;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* position: fixed; */
+}
+
+.Dashboard_nav_box{
+    /* border: 2px solid black; */
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Dashboard_nav_buttons{
+    height: 25vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+
+.Dashboard_nav_btn{
+    width: 90%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    background-color: #E01936;
+    border: none;
+    border-radius: 5px;
+}
+
+.Dashboard_nav_btn:hover{
+    background-color: #FF6077;
+
+}

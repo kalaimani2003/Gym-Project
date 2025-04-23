@@ -1,7 +1,7 @@
 import './App.css'
 import { Inp } from './common/input-box/Inp'
 import { LoginPage } from './components/Login page/LoginPage'
-import { RouterCom } from './components/Router/RouterCom'
+import { RouterCom } from './Router/RouterCom'
 import { LoginFirstpage } from './screens/loginpage/loginFirstpage'
 import { BrowserRouter } from 'react-router-dom'
 

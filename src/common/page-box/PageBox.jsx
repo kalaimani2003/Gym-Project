@@ -1,10 +1,10 @@
 import React from 'react'
 import "./pagebox.css"
-import { Link } from 'react-router-dom'
+import { Link, Links } from 'react-router-dom'
 import logo from "../../assets/gym-logo.jpg"
 
 export const PageBox = ({ tit, subTit, inp_box1, inp_box2, inp_box3, inp_box4, ancorr, btnn, setPageChange }) => {
-    // console.log(tit);
+    console.log(tit);
 
     // const Click = (t) => {
     //     setPageChange("false");
@@ -12,6 +12,9 @@ export const PageBox = ({ tit, subTit, inp_box1, inp_box2, inp_box3, inp_box4, a
     //     console.log(t);
 
     // }
+    function SubmitForm(e) {
+        e.preventDefault()
+    }
 
     // if (name == "otp") {
 
@@ -36,18 +39,23 @@ export const PageBox = ({ tit, subTit, inp_box1, inp_box2, inp_box3, inp_box4, a
                     <div className="pagebox_sub_tit">
                         {subTit}
                     </div>
-                    <div className={(tit == "Enter Your OTP") ? "pagebox_inp_otp" : "pagebox_inp_box"} >
-                        {inp_box1}
-                        {inp_box2}
-                        {inp_box3}
-                        {inp_box4}
-                    </div>
-                    <div onClick={() => setPageChange("forgetPage")}>
-                        {ancorr}
-                    </div>
-                    <div className="pagebox_btn">
-                        <button onClick={() => setPageChange(tit)}>{btnn}</button>
-                    </div>
+                    <form action="" onSubmit={SubmitForm}>
+                        <div className={(tit == "Enter Your OTP") ? "pagebox_inp_otp" : "pagebox_inp_box"} >
+                            {inp_box1}
+                            {inp_box2}
+                            {inp_box3}
+                            {inp_box4}
+                        </div>
+                        <div onClick={() => setPageChange("forgetPage")}>
+                            {ancorr}
+                        </div>
+                        <div className="pagebox_btn">
+
+                            {(tit == "Login") ? <Link to={"/Dashboard"}>
+                                <button>{btnn}</button>
+                            </Link> : <button onClick={() => setPageChange(tit)}>{btnn}</button>} 
+                        </div>
+                    </form>
 
                 </div>
             </div>
