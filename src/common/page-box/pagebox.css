@@ -1,11 +1,11 @@
 .pagebox_con{
     /* height:400px; */
-    padding: 30px 10px;
+    padding: 50px 30px;
     width: 400px;
     background-color: white;
     border: 2px solid black;
     font-family: var(--primaryFont);
-
+    border-radius: 20px;
 }
 .pagebox_logo{
     border-radius: 50%;
@@ -22,4 +22,18 @@
 .pagebox_txt{
     border-left: 2px solid gray;
     padding: 0px 20px;
+}
+
+.pagebox_sub_tit{
+    color: red;
+}
+
+.pagebox_inp_box{
+    display: flex;
+    flex-direction: column;
+}
+
+.pagebox_inp_otp{
+    display: flex;
+
 }

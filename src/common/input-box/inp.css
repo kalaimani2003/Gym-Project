@@ -1,5 +1,6 @@
 .inp_con_out {
-    border: 2px solid black;
+    /* border: 1px solid rgb(104, 102, 102); */
+    background-color: #e2e2e2cb;
     height: 40px;
     width: 310px;
     display: flex;
@@ -15,10 +16,34 @@
     align-items: center;
     justify-content: center;
 }
-.inp_input{
+
+.inp_input {
     height: 100%;
     width: 85%;
     outline: none;
     border: none;
     font-size: large;
+    background-color: #e2e2e2cb;
+
+}
+
+.inp_otp {
+    height: 100%;
+    width: 80%;
+    outline: none;
+    border: none;
+    font-size: large;
+    /* background-color: #e2e2e2cb; */
+    border-bottom: 2px solid black;
+}
+
+.inp_con_otp{
+    /* border: 1px solid black; */
+    background-color: white;
+    /* background-color: #e2e2e2cb; */
+    height: 40px;
+    /* width: 500px; */
+    display: flex;
+    border-radius: 10px;
+    padding: 3px;
 }

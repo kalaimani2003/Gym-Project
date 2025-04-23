@@ -1,6 +1,13 @@
-.logininput_con{
+.logininput_con {
     height: 100vh;
-    background-image: url("../../assets/gym-bg2.jpg");
+    background-image: url("../../assets/gym-bg2.png");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.logininput_in {
+    /* background-color: aqua; */
+    top: 200px;
+    left: 50px;
+    position: relative;
 }

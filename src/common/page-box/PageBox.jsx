@@ -3,7 +3,22 @@ import "./pagebox.css"
 import { Link } from 'react-router-dom'
 import logo from "../../assets/gym-logo.jpg"
 
-export const PageBox = ({ tit, subTit, inp_box1, inp_box2, ancorr, btnn, setPageChange }) => {
+export const PageBox = ({ tit, subTit, inp_box1, inp_box2, inp_box3, inp_box4, ancorr, btnn, setPageChange }) => {
+    // console.log(tit);
+
+    // const Click = (t) => {
+    //     setPageChange("false");
+    //     setOtp(t);
+    //     console.log(t);
+
+    // }
+
+    // if (name == "otp") {
+
+    // }
+
+    // console.log(subTit);
+
 
     return (
         <>
@@ -21,15 +36,17 @@ export const PageBox = ({ tit, subTit, inp_box1, inp_box2, ancorr, btnn, setPage
                     <div className="pagebox_sub_tit">
                         {subTit}
                     </div>
-                    <div className="pagebox_inp_box">
+                    <div className={(tit == "Enter Your OTP") ? "pagebox_inp_otp" : "pagebox_inp_box"} >
                         {inp_box1}
                         {inp_box2}
+                        {inp_box3}
+                        {inp_box4}
                     </div>
-                    <div onClick={() =>setPageChange("forgetPage")}>
+                    <div onClick={() => setPageChange("forgetPage")}>
                         {ancorr}
                     </div>
                     <div className="pagebox_btn">
-                        <button>{btnn}</button>
+                        <button onClick={() => setPageChange(tit)}>{btnn}</button>
                     </div>
 
                 </div>
