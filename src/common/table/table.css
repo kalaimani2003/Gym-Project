@@ -1,0 +1,14 @@
+table {
+    border: 1px solid black;
+    border-collapse: separate;
+    border-spacing: 4px 15px;
+    font-family: var(--primaryFont);
+}
+
+
+th,
+td {
+    border: 1px solid black;
+    padding: 10px 15px;
+    background-color: whitesmoke;
+}

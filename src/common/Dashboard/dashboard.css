@@ -1,11 +1,11 @@
-.Dashboard_head{
+.Dashboard_head {
     /* border: 2px solid black; */
     height: 10vh;
     display: flex;
     align-items: center;
 }
 
-.Dashboard_navbar{
+.Dashboard_navbar {
     /* border: 2px solid black; */
     height: 90vh;
     width: 15%;
@@ -18,7 +18,7 @@
     position: fixed;
 }
 
-.Dashboard_nav_box{
+.Dashboard_nav_box {
     /* border: 2px solid black; */
     height: 10vh;
     display: flex;
@@ -26,7 +26,7 @@
     align-items: center;
 }
 
-.Dashboard_nav_buttons{
+.Dashboard_nav_buttons {
     height: 25vh;
     flex-direction: column;
     justify-content: space-evenly;
@@ -34,7 +34,7 @@
 }
 
 
-.Dashboard_nav_btn{
+.Dashboard_nav_btn {
     width: 90%;
     height: 5vh;
     display: flex;
@@ -46,6 +46,20 @@
     color: white;
 }
 
-.Dashboard_nav_btn:hover{
+.Dashboard_nav_btn_on {
+    width: 90%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    /* background-color: #E01936; */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #FF6077;
+
+}
+
+.Dashboard_nav_btn:hover {
     background-color: #FF6077;
 }
