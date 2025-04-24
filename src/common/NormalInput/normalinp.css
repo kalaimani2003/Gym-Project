@@ -1,0 +1,17 @@
+.NormalInp_con {
+    display: flex;
+    justify-content: center;
+}
+
+.NormalInp_inp {
+    background-color: white;
+    border: none;
+    height: 35px;
+    width: 350px;
+    display: flex;
+    border-radius: 6px;
+    padding: 3px;
+    padding-left: 20px;
+    outline: none;
+    font-size: large;
+}

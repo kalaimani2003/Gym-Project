@@ -1,0 +1,69 @@
+.RegisterFormComp_con {
+    /* border: 2px solid black; */
+    background-image: url("../../assets/gym-bg2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    height: 90vh;
+    width: 100%;
+}
+
+.RegisterFormComp_back {
+    /* border: 2px solid white; */
+    height: 8vh;
+    color: white;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.RegisterFormComp_back_box {
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.RegisterFormComp_heading {
+    /* border: 2px solid white; */
+    height: 10vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.RegisterFormComp_form_con {
+    /* border: 2px solid white; */
+    height: 70vh;
+    display: flex;
+}
+
+.RegisterFormComp_form_inps {
+    /* border: 2px solid white; */
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.RegisterFormComp_form_inps_in {
+    /* border: 2px solid white; */
+    border-radius: 10px;
+    width: 60%;
+    height: 100%;
+    background-color: #e2e2e251;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.RegisterFormComp_form_camera {
+    /* border: 2px solid white; */
+    height: 100%;
+    width: 40%;
+
+}
