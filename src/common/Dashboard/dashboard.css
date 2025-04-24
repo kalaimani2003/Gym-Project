@@ -1,5 +1,5 @@
 .Dashboard_head{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 10vh;
     display: flex;
     align-items: center;
@@ -14,7 +14,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* position: fixed; */
+    border-radius: 10px;
+    position: fixed;
 }
 
 .Dashboard_nav_box{
@@ -42,9 +43,9 @@
     background-color: #E01936;
     border: none;
     border-radius: 5px;
+    color: white;
 }
 
 .Dashboard_nav_btn:hover{
     background-color: #FF6077;
-
 }
