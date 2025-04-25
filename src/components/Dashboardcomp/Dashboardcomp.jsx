@@ -6,6 +6,7 @@ import { Table } from '../../common/table/Table'
 import { ViewReg } from '../../screens/ViewRegister/ViewReg'
 import { Link, useLocation } from 'react-router-dom'
 import { RegisterForm } from '../../screens/dashBoard/Registerform/RegisterForm'
+import { PaymentHistory } from '../../screens/Payment-History/PaymentHistory'
 
 export const Dashboardcomp = () => {
 
@@ -44,7 +45,7 @@ export const Dashboardcomp = () => {
                 <ViewReg />
             </div> : (cur_Loc == "PaymentHistory") ? <div className="Dashboardcomp-con">
                 {/* <ViewReg /> */}
-                PaymentHistory
+               <PaymentHistory/>
             </div> : (cur_Loc == "Logout") ? <div className="Dashboardcomp-con">
                 {/* <ViewReg /> */}
                 logout

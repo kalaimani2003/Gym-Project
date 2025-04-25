@@ -1,0 +1,97 @@
+.ViewReghead_con {
+    width: 100%;
+    height: 15vh;
+    /* border: 2px solid black; */
+}
+
+.ViewReghead_name_src_con {
+    /* border: 2px solid black; */
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ViewReghead_name {
+    /* border: 2px solid black; */
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ViewReghead_src {
+    /* border: 2px solid black; */
+    width: 300px;
+    display: flex;
+    /* height: 30px; */
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.ViewReghead_src_inp_box {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    padding-right: 5px;
+
+}
+
+.ViewReghead_filter {
+    background-color: white;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.ViewReghead_src_inp {
+    border: none;
+    /* border: 2px solid black; */
+    width: 100%;
+    outline: none;
+    font-size: larger;
+    height: 30px;
+
+}
+
+.ViewReghead_chk_del_down {
+    height: 50%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: end;
+    align-items: start;
+
+}
+
+.ViewReghead_chk_del_down_box {
+    /* border: 2px solid black; */
+    height: 86%;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 40px;
+}
+
+.ViewReghead_checkbox{
+    height: 20px;
+    width: 16px;
+}
+
+.ViewReghead_in_box {
+    /* border: 2px solid black; */
+    width: 20%;
+    height: 60%;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

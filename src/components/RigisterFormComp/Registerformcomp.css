@@ -61,9 +61,37 @@
     justify-content: space-evenly;
 }
 
-.RegisterFormComp_form_camera {
+.RegisterFormComp_form_camera_con {
     /* border: 2px solid white; */
     height: 100%;
     width: 40%;
+}
+
+.RegisterFormComp_form_cam {
+    border: 2px solid white;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    /* font-size: x-large; */
+
+}
+
+.RegisterFormComp_form_cam_btn {
+    /* border: 2px solid white; */
+    margin-top: 15px;
+
+
+}
+
+.reg_fr_btn {
+    border: 2px solid white;
+    height: 6vh;
+    border-radius: 5px;
+    margin-left: 30px;
+    width: 200px;
 
 }
