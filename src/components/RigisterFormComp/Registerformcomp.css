@@ -73,14 +73,14 @@
 }
 
 .RegisterFormComp_form_cam {
-    border: 2px solid white;
-    width: 250px;
-    height: 250px;
+    /* border: 2px solid white; */
+     /* width: 300px; */
+    /* height: 250px;  */
     border-radius: 10px;
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
-    background-color: white;
+    justify-content: center; */
+    /* background-color: white; */
     /* font-size: x-large; */
 
 }
@@ -96,10 +96,11 @@
     border: 2px solid white;
     height: 6vh;
     border-radius: 5px;
-    margin-left: 30px;
+    margin-left: 65px;
     width: 200px;
     font-size: larger;
     color: #756a6a;
+    cursor: pointer;
 
 
 }

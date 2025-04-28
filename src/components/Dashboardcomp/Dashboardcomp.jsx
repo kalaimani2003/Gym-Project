@@ -45,15 +45,15 @@ export const Dashboardcomp = () => {
                         </div>
                     </div>}
             </div> : (cur_Loc == "ViewRegister") ? <div className="Dashboardcomp-con">
-                <ViewReg />
+                <ViewReg  setPop={setPop} setPopValue={setPopValue}/>
             </div> : (cur_Loc == "PaymentHistory") ? <div className="Dashboardcomp-con">
                 {/* <ViewReg /> */}
                 <PaymentHistory />
-            </div> : (cur_Loc == "Logout") ? <div className="Dashboardcomp-con">
-                {/* <ViewReg /> */}
+            </div> : (cur_Loc == "Logout") ? 
+            <div className="Dashboardcomp-con">
                 <Popup txt={"Are you sure you want to Logout ?"} btn1={"Logout"} btn2={"Cancel"} />
-
-            </div> : ""}
+            </div>
+             : ""}
             {pop ? <Popup txt={popValue} btn1={"sure"} btn2={"Cancel"}  setPop={setPop}/>  : ""}
         </>
 

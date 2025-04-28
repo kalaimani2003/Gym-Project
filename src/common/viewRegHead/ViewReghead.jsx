@@ -3,7 +3,7 @@ import "./viewreghead.css"
 import FilterListIcon from '@mui/icons-material/FilterList';
 import SearchIcon from '@mui/icons-material/Search';
 
-export const ViewReghead = ({namee , cdd}) => {
+export const ViewReghead = ({ namee, cdd}) => {
     return (
         <>
             <div className="ViewReghead_con">
@@ -22,7 +22,7 @@ export const ViewReghead = ({namee , cdd}) => {
                     </div>
                 </div>
                 {cdd}
-                
+
             </div>
         </>
     )

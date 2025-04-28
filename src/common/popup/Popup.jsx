@@ -2,6 +2,8 @@ import React from 'react'
 import "./popup.css"
 
 export const Popup = ({ txt, btn1, btn2, setPop }) => {
+    console.log(btn1,btn2);
+    
     return (
         <>
             <div className="popup_con">

@@ -4,6 +4,7 @@ import KeyboardBackspaceIcon from '@mui/icons-material/KeyboardBackspace';
 import { NormalInp } from '../../common/NormalInput/NormalInp';
 import { Link } from 'react-router-dom';
 import AddAPhotoIcon from '@mui/icons-material/AddAPhoto';
+import { Camera } from '../Camera/Camera';
 
 export const RegisterFormComp = ({ useDashTab }) => {
     
@@ -33,15 +34,15 @@ export const RegisterFormComp = ({ useDashTab }) => {
                         </div>
 
                     </div>
-                    <div className="RegisterFormComp_form_camera_con">
+                    {/* <div className="RegisterFormComp_form_camera_con">
                         <div className="RegisterFormComp_form_cam">
                             <AddAPhotoIcon sx={{ fontSize: "50px",color:"#756a6a" }} />
                         </div>
                         <div className="RegisterFormComp_form_cam_btn">
                             <button className='reg_fr_btn' onClick={() => CameraOutlined()}>Take photo</button>
                         </div>
-
-                    </div>
+                    </div> */}
+                    <Camera/>
                 </div>
             </div>
 

@@ -3,9 +3,9 @@ table {
     border-collapse: separate;
     border-spacing: 4px 15px;
     font-family: var(--primaryFont);
-    width: 100%;
-
-
+    width:80vw;
+    /* background-color: aqua; */
+    /* padding: 0px; */
 
 }
 
@@ -25,6 +25,7 @@ td {
 }
 th{
     background-color: orangered;
+    color: white;
 }
 
 thead {
@@ -34,7 +35,7 @@ thead {
 }
 
 tbody {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     scroll-behavior: smooth;
 
 }

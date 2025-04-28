@@ -1,4 +1,6 @@
 .ViewRegisterComp_table {
     /* border: 2px solid black; */
     height: 540px;
+    display: flex;
+    justify-content: center;
 }
