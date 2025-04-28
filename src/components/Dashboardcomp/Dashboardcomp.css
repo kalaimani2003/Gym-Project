@@ -12,4 +12,26 @@
     background-color: rgba(216, 208, 208, 0.498);
     margin-top: 5px;
     height: 64vh;
+    display: flex;
+    justify-content: center;
+}
+
+.Dashboardcomp_table_con_in{
+    /* border: 2px solid black; */
+    width: 100%;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 10px;
+
+}
+
+.Dashboardcomp_table_txt{
+    margin-left: 20px;
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+.Dashboardcomp_table{
+    height: 420px;
+    /* border: 2px solid black; */
+
 }

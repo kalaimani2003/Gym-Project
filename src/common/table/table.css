@@ -1,15 +1,40 @@
 table {
-    border: 1px solid black;
+    /* border: 2px solid black; */
     border-collapse: separate;
     border-spacing: 4px 15px;
     font-family: var(--primaryFont);
     width: 100%;
+
+
+
 }
+
+.table_con {
+    overflow: auto;
+    height: 100%;
+}
+
+
 
 
 th,
 td {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 10px 15px;
     background-color: whitesmoke;
+}
+th{
+    background-color: orangered;
+}
+
+thead {
+    /* border: 2px solid black; */
+    position: sticky;
+    top: 0px;
+}
+
+tbody {
+    border: 2px solid black;
+    scroll-behavior: smooth;
+
 }

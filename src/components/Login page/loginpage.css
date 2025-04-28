@@ -1,5 +1,5 @@
 .loginpage_con {
-    border: 2px solid black;
+    border: 0.1px solid white; 
     height: 100vh;
     background-image: url("../../assets/gym-first-page.webp");
     background-repeat: no-repeat;
@@ -14,13 +14,57 @@
 .loginpage_h1 {
     font-family: var(--primaryFont);
     margin: 200px 0px 0px 40px;
+    font-size: 45px;
+    /* border: 2px solid white; */
+
 }
 
 .loginpage_p1 {
     font-family: var(--primaryFont);
     margin: 5px 0px 0px 40px;
+    font-size: 20px;
+    /* border: 2px solid white; */
+
 
 }
-.loginpage_medias{
+
+.loginpage_p2 {
+    /* border: 2px solid white; */
+    margin: 5px 0px 0px 40px;
+    width: 500px;
+
+}
+
+.loginpage_button {
+    /* border: 2px solid white; */
+    margin: 5px 0px 0px 40px;
+
+
+}
+
+.loginpage_btn {
+    height: 45px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+    font-size: larger;
+}
+
+.loginpage_medias {
     display: flex;
+    /* border: 2px solid white; */
+    margin: 180px 0px 0px 40px;
+    justify-content: center;
+
+}
+
+.loginpage_medias_box {
+    margin-right: 20px;
+    /* background-color: white; */
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

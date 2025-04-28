@@ -25,21 +25,21 @@ export const LoginPage = () => {
                 </p>
                 <div className="loginpage_button">
                     <Link to={"/LoginPage"}>
-                        <button>Get Start</button>
+                        <button className='loginpage_btn'>Get Start</button>
                     </Link>
                 </div>
                 <div className="loginpage_medias">
                     <div className="loginpage_medias_box">
-                        <FacebookIcon />
+                        <FacebookIcon sx={{color:"red"}}/>
                     </div>
                     <div className="loginpage_medias_box">
-                        <GoogleIcon />
+                        <GoogleIcon sx={{color:"red"}} />
                     </div>
                     <div className="loginpage_medias_box">
-                        <InstagramIcon />
+                        <InstagramIcon sx={{color:"red"}} />
                     </div>
                     <div className="loginpage_medias_box">
-                        <WhatsAppIcon />
+                        <WhatsAppIcon sx={{color:"red"}} />
                     </div>
                 </div>
             </div>

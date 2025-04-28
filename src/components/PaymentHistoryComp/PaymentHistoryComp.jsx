@@ -5,8 +5,11 @@ import { Table } from '../../common/table/Table'
 export const PaymentHistoryComp = () => {
   return (
     <>
-    <ViewReghead namee={"Payment History"}/>
-    <Table/>
+      <ViewReghead namee={"Payment History"} />
+      <div className="ViewRegisterComp_table">
+        <Table />
+
+      </div>
     </>
   )
 }

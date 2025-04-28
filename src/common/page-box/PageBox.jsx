@@ -30,7 +30,7 @@ export const PageBox = ({ tit, subTit, inp_box1, inp_box2, inp_box3, inp_box4, a
                     <div className="pagebox_log_txt">
                         <img src={logo} alt="" className='pagebox_logo' />
                         <div className="pagebox_txt">
-                            Beast Forces <br />Gym
+                            Beast Forces <br /> Gym
                         </div>
                     </div>
                     <div className="pagebox_tit">
@@ -46,14 +46,14 @@ export const PageBox = ({ tit, subTit, inp_box1, inp_box2, inp_box3, inp_box4, a
                             {inp_box3}
                             {inp_box4}
                         </div>
-                        <div onClick={() => setPageChange("forgetPage")}>
+                        <div className='forget_ancor' onClick={() => setPageChange("forgetPage")}>
                             {ancorr}
                         </div>
                         <div className="pagebox_btn">
 
-                            {(tit == "Login") ? <Link to={"/Dashboard"}>
-                                <button>{btnn}</button>
-                            </Link> : <button onClick={() => setPageChange(tit)}>{btnn}</button>} 
+                            {(tit == "Login") ? <Link className='Login_a' to={"/Dashboard"}>
+                                <button className='Login_b'>{btnn}</button>
+                            </Link> : <button className='Login_a' onClick={() => setPageChange(tit)}>{btnn}</button>} 
                         </div>
                     </form>
 

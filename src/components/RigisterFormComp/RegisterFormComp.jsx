@@ -35,7 +35,7 @@ export const RegisterFormComp = ({ useDashTab }) => {
                     </div>
                     <div className="RegisterFormComp_form_camera_con">
                         <div className="RegisterFormComp_form_cam">
-                            <AddAPhotoIcon sx={{ fontSize: "50px" }} />
+                            <AddAPhotoIcon sx={{ fontSize: "50px",color:"#756a6a" }} />
                         </div>
                         <div className="RegisterFormComp_form_cam_btn">
                             <button className='reg_fr_btn' onClick={() => CameraOutlined()}>Take photo</button>

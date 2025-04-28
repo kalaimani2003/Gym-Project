@@ -17,6 +17,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: large;
+    font-family: var(--primaryFont);
 }
 
 .ViewReghead_src {

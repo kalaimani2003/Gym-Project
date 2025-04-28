@@ -1,39 +1,94 @@
-.pagebox_con{
+.pagebox_con {
     /* height:400px; */
     padding: 50px 30px;
     width: 400px;
     background-color: white;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     font-family: var(--primaryFont);
     border-radius: 20px;
 }
-.pagebox_logo{
+
+.pagebox_logo {
     border-radius: 50%;
     height: 40px;
     width: 40px;
+    margin-right: 20px;
     border: 2px solid black;
 }
-.pagebox_log_txt{
+
+.pagebox_log_txt {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    /* border: 2px solid black; */
+
 }
 
-.pagebox_txt{
+.pagebox_txt {
     border-left: 2px solid gray;
     padding: 0px 20px;
+    height: 50px;
+    display: flex;
+    align-items: center;
 }
 
-.pagebox_sub_tit{
+.pagebox_tit {
+    text-align: center;
+    font-size: large;
+    margin-top: 20px;
+}
+
+.pagebox_sub_tit {
     color: red;
+    margin-top: 10px;
+    text-align: center;
 }
 
-.pagebox_inp_box{
+.pagebox_inp_box {
     display: flex;
     flex-direction: column;
+    /* border: 2px solid black; */
+    align-items: center;
+    /* padding: 20px 0px; */
+
 }
 
-.pagebox_inp_otp{
+.pagebox_inp_otp {
     display: flex;
+
+}
+
+.forget_ancor {
+    text-align: end;
+    margin-top: 10px;
+}
+
+.pagebox_btn {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Login_a {
+    /* border: 2px solid black; */
+    width: 150px;
+    height: 40px;
+    background-color: #E01936;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: white;
+    font-size: larger;
+    margin-top: 10px;
+    border: none;
+}
+
+.Login_b {
+    background-color: #E01936;
+    color: white;
+    font-size: larger;
+    border: none;
 
 }
