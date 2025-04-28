@@ -3,6 +3,7 @@ table {
     border-collapse: separate;
     border-spacing: 4px 15px;
     font-family: var(--primaryFont);
+    width: 100%;
 }
 
 

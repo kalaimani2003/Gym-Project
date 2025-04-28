@@ -7,6 +7,7 @@ import { ViewReg } from '../../screens/ViewRegister/ViewReg'
 import { Link, useLocation } from 'react-router-dom'
 import { RegisterForm } from '../../screens/dashBoard/Registerform/RegisterForm'
 import { PaymentHistory } from '../../screens/Payment-History/PaymentHistory'
+import { Popup } from '../../common/popup/Popup'
 
 export const Dashboardcomp = () => {
 
@@ -15,6 +16,8 @@ export const Dashboardcomp = () => {
     const location = useLocation();
     let cur_Loc = location.pathname.split("/").pop();
     // console.log(location.pathname.split("/").pop());
+    const [pop, setPop] = useState(false);
+    const [popValue, setPopValue] = useState("");
 
     return (
         <>
@@ -27,10 +30,10 @@ export const Dashboardcomp = () => {
                             Accounts Expired
                         </div>
                         <div className="Dashboardcomp_table">
-                            <Table />
+                            <Table setPop={setPop} setPopValue={setPopValue}/>
                         </div>
                     </div>
-                </div> : (dashTab == "New Register") ? <RegisterForm useDashTab={useDashTab}/> :
+                </div> : (dashTab == "New Register") ? <RegisterForm useDashTab={useDashTab} /> :
                     <div className="Dashboardcomp_table_con">
                         <div className="Dashboardcomp_table_con_in">
                             <div className="Dashboardcomp_table_txt">
@@ -45,13 +48,14 @@ export const Dashboardcomp = () => {
                 <ViewReg />
             </div> : (cur_Loc == "PaymentHistory") ? <div className="Dashboardcomp-con">
                 {/* <ViewReg /> */}
-               <PaymentHistory/>
+                <PaymentHistory />
             </div> : (cur_Loc == "Logout") ? <div className="Dashboardcomp-con">
                 {/* <ViewReg /> */}
-                logout
-            </div> : ""}
-        </>
+                <Popup txt={"Are you sure you want to Logout ?"} btn1={"Logout"} btn2={"Cancel"} />
 
+            </div> : ""}
+            {pop ? <Popup txt={popValue} btn1={"sure"} btn2={"Cancel"}  setPop={setPop}/>  : ""}
+        </>
 
     )
 }
